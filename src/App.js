@@ -20,7 +20,7 @@ function App() {
         setPosition({ x: position.x, y: position.y !== 70 ? position.y - step : position.y });
         break;
       case "bottom":
-        setPosition({ x: position.x, y: position.y !== 560 ? position.y + step : position.y  });
+        setPosition({ x: position.x, y: position.y !== 490 ? position.y + step : position.y  });
         break;
       default:
         break;
@@ -32,7 +32,7 @@ function App() {
         <div className="left_container"  onClick={() => handleMove('left')} style={{color : position.x === 70 ? "rgb(207, 205, 205)" : "black" }}>Left</div>
         <div className="right_container" onClick={()=> handleMove('right')} style={{color : position.x === 630 ? "rgb(207, 205, 205)" : "black" }}>Right</div>
         <div className="top_container" onClick={()=> handleMove('top')} style={{color : position.y === 70 ? "rgb(207, 205, 205)" : "black" }}>Top</div>
-        <div className="bottom_container" onClick={()=> handleMove('bottom')} style={{color : position.y === 560 ? "rgb(207, 205, 205)" : "black" }}>Bottom</div>
+        <div className="bottom_container" onClick={()=> handleMove('bottom')} style={{color : position.y === 490 ? "rgb(207, 205, 205)" : "black" }}>Bottom</div>
         <div    style={{
             width: "70px",
             height: "70px",

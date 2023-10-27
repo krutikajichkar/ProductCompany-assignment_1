@@ -7,15 +7,15 @@
 .container{
 
 width: 770px;
-height: 700px;
-margin-top: 70px;
-margin-bottom: 70px;
+height: 630px;
+margin-top: 40px;
+margin-bottom: 40px;
 position: relative;
 font-size: 18px;
 color: rgb(207, 205, 205);
 }
 .left_container{
-  height: 560px;
+  height: 490px;
   background-color: aqua;
   width: 70px;
  display:flex;
@@ -26,7 +26,7 @@ color: rgb(207, 205, 205);
  cursor: pointer;
 }
 .right_container{
-  height: 560px;
+  height: 490px;
   background-color: aqua;
   width: 70px;
   position: absolute;
