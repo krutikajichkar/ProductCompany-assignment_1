@@ -1,0 +1,75 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+
+width: 770px;
+height: 700px;
+margin-top: 70px;
+margin-bottom: 70px;
+position: relative;
+font-size: 18px;
+color: rgb(207, 205, 205);
+}
+.left_container{
+  height: 560px;
+  background-color: aqua;
+  width: 70px;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ margin-top: 70px;
+ margin-bottom: 70px;
+ cursor: pointer;
+}
+.right_container{
+  height: 560px;
+  background-color: aqua;
+  width: 70px;
+  position: absolute;
+  top: 0;
+  right: 0;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+margin-top: 70px;
+margin-bottom: 70px;
+cursor: pointer;
+}
+.top_container{
+  width: 630px;
+  background-color: aqua;
+  height: 70px;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ position: absolute;
+ top: 0;
+ margin-left: 70px;
+ margin-right: 70px;
+ cursor: pointer;
+}
+.bottom_container{
+  width: 630px;
+  background-color: aqua;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ margin-left: 70px;
+ margin-right: 70px;
+ cursor: pointer;
+}
+#box{
+  width: 70px;
+  height: 70px;
+  background-color: greenyellow;
+  position : absolute;
+  left: 70px;
+  top: 70px;
+}
